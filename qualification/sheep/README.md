@@ -4,7 +4,8 @@ Counting Sheep
 Source code
 -----------
 
-After working one hour and half on this algorithmic puzzle, I submitted the C++ file [main.cpp](sheep/main.cpp) which is corect.
+After working one hour and half on this algorithmic puzzle,
+I submitted the C++ file [main.cpp](main.cpp) which is corect.
 
 Using GCC-5.2.1
 
