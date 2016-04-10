@@ -96,35 +96,35 @@ My submitted files are also available on [GCJ website](https://code.google.com/c
 Round 1A
 --------
 
-Saturday 16 April 2016, online.
+Saturday 16 April 2016, online, Paris night (3:00 - 5:30).
 
 
 Round 1B
 --------
 
-Saturday 30 April 2016, online.
+Saturday 30 April 2016, online, Paris evening (18:00 - 20:30).
 
 
 Round 1C
 --------
 
-Sunday 8 May 2016, online.
+Sunday 8 May 2016, online, Paris midday (11:00 - 13:30).
 
 
 Round 2
 -------
 
-Saturday 28 May 2016, online.
+Saturday 28 May 2016, online, Paris afternoon (16:00 - 18:30).
 
 
 Round 3
 -------
 
-Saturday 11 June 2016, online.
+Saturday 11 June 2016, online, Paris afternoon (16:00 - 18:30).
 
 
 Final
 ------
 
-Friday 5 August 2016, onsite at Google's New York office. 
+Friday 5 August 2016, onsite at Google's New York office, Afternoon (12:30 - 16:30).
 
