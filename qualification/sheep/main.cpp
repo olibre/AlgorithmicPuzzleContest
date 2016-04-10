@@ -50,7 +50,7 @@ void sheep (uint_fast64_t n)
 
     for (uint_fast64_t m=1; ; ++m)
     {
-        if (m > numeric_limits<decltype(n)>::max() / n)
+        if (m > 10000000000000000000ULL)
         {
             std::cout << "INSOMNIA";
             return;
@@ -99,7 +99,7 @@ int main()
 
         uint_fast64_t n;
         std::cin >> n;
-        assert(0 <= n);
+//      assert(0 <= n);
         assert(     n <= 1'000'000);
 
         sheep (n);
