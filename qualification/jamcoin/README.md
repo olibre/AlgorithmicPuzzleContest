@@ -4,7 +4,7 @@ Coin Jam
 Source code
 -----------
 
-After working fifteen hours on this algorithmic puzzle, I submitted the C++ file [main.cpp](jamcoin/main.cpp) which is corect.
+After working fifteen hours on this algorithmic puzzle, I submitted the C++ file [main.cpp](main.cpp) which is corect.
 
 Using GCC-5.2.1
 
