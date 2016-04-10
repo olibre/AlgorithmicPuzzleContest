@@ -1,0 +1,132 @@
+#include <iostream>
+#include <stdint.h> // uint_fast64_t
+#include <string>
+#include <cassert>
+#include <limits>
+#include <iomanip>
+
+using namespace std;
+
+uint_fast64_t flip (std::string& stack, unsigned first_pancakes_already_flipped)
+{
+    std::cout <<'\n';
+    for (auto c : stack)
+        std::cout << (c ? '+' : '-');
+    std::string span(stack.size()+2,' ');
+    assert(first_pancakes_already_flipped < span.size());
+    span[first_pancakes_already_flipped] = '.';
+    std::cout << span;
+
+    // position of last '-' => do not flip after it
+    auto pos = stack.find_last_of( std::string::value_type(0) );
+    if ( pos == stack.npos )
+    {
+        std::cout <<"\t" "*";
+        return 0;
+    }
+    assert(pos < stack.size());
+    // find_last_of('+')
+    {
+        int pos_plus = pos;
+        for (; pos_plus >= 0; --pos_plus)
+            if (stack[pos_plus])
+                break;
+        if (pos_plus < 0) // pancakes with happy side down are all successive ant at the top => one flip
+        {
+            std::cout <<"\t" "#";
+            return 1;
+        }
+
+        auto pos_minus = stack.find_last_of( std::string::value_type(0), pos_plus );
+        if ( pos_minus == stack.npos )
+        {
+            std::cout <<"\t" "**";
+            return 2;
+        }
+
+        int pos_plus_plus = pos_minus;
+        for (; pos_plus_plus >= 0; --pos_plus_plus)
+            if (stack[pos_plus_plus])
+                break;
+        if (pos_plus_plus < 0)
+        {
+            std::cout <<"\t" "##";
+            return 3;
+        }
+    }
+
+    uint_fast64_t smallest_number_of_flips = numeric_limits<uint_fast64_t>::max();
+
+    for (decltype(pos) i = (first_pancakes_already_flipped % stack.size()); i <= pos; ++i)
+    {
+        stack[i] = ! stack[i]; // flip one by one to simulate group-flip
+
+        std::cout <<"\t" "("<< i;
+        std::cout <<" -> "<< pos <<')';
+        uint_fast64_t number_of_flips = flip(stack,i+1);
+        std::cout <<"\t" "("<< i;
+        std::cout <<" -> "<< pos;
+        std::cout <<" => "<< number_of_flips+1 <<')';
+        if (smallest_number_of_flips > number_of_flips)
+            smallest_number_of_flips = number_of_flips;
+    }
+
+    // revert
+    for (decltype(pos) i = 0; i <= pos; ++i)
+        stack[i] = ! stack[i];
+
+    std::cout <<"\t" "["<< 1 + smallest_number_of_flips <<']';
+    return 1 + smallest_number_of_flips;
+}
+
+
+int smallest_number_of_times_to_get_all_pancakes_happy_side_up (const std::string& stack)
+{
+    int smallest_number_of_flips = 0;
+    char last = '+';
+    for (int i = stack.size()-1; i >=0; --i )
+    {
+        char c = stack[i];
+        assert (c=='-' || c=='+');
+        if (c != last)
+        {
+            last = c;
+            smallest_number_of_flips++;
+        }
+    }
+    return smallest_number_of_flips;
+
+
+
+   std::string fast_stack = stack;
+   for (auto& c : fast_stack)
+   {
+       assert (c=='-' || c=='+');
+       c = c=='-' ? 0 : 1;
+   }
+
+   return flip (fast_stack,0);
+}
+
+int main()
+{
+    int t;
+    std::cin >> t;
+    assert(1 <= t);
+    assert(     t <= 100);
+
+    for (int i=1; i<=t; ++i)
+    {
+        //std::cout <<"Case #"<< i <<": ";
+        std::cout <<"\n" "---------------";
+
+        std::string stack_of_pancakes;
+        std::cin >> stack_of_pancakes;
+        for (auto pancake : stack_of_pancakes)
+            assert (pancake=='-' || pancake=='+');
+
+        auto n = smallest_number_of_times_to_get_all_pancakes_happy_side_up (stack_of_pancakes);
+
+        std::cout <<"\n" "["<< n << ']'<< std::endl;
+    }
+}
