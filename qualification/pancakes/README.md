@@ -5,7 +5,7 @@ Source code
 -----------
 
 After working four hours on this algorithmic puzzle,
-I submitted the C++ file [main.cpp](pancakes/main.cpp) which is corect.
+I submitted the C++ file [main.cpp](main.cpp) which is corect.
 
 Using GCC-5.2.1
 
