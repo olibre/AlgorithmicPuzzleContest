@@ -86,9 +86,9 @@ Pourcentage between parenthesis is the comparaison over the total number of pres
 My submitted files are also available on [GCJ website](https://code.google.com/codejam/contest/6254486/scoreboard#vf=1&sp=5881)
 (search contestant *olibre* rank 5884).
 
-  [A. Counting Sheep]:             sheep/README.md
-  [B. Revenge of the Pancakes]: pancakes/README.md
-  [C. Coin Jam]:                 jamcoin/README.md
+  [A. Counting Sheep]:          qualification/sheep/README.md
+  [B. Revenge of the Pancakes]: qualification/pancakes/README.md
+  [C. Coin Jam]:                qualification/jamcoin/README.md
   [D. Fractiles]: https://code.google.com/codejam/contest/6254486/dashboard#s=p3
 
 
