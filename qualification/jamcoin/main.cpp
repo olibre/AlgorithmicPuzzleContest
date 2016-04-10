@@ -48,7 +48,7 @@ using namespace std;
 /// return divisor => The number is *NOT* prime
 constexpr int divisor (__uint128_t number) noexcept
 {
-    if (number      <  0) number = -number;  // support negative numbers
+//  if (number      <  0) number = -number;  // support negative numbers
     if (number      <  2) return  1;         // 0,  1       => not prime
     if (number %  2 == 0) return  2;         // 4,  6,  8.. => not prime
     if (number %  3 == 0) return  3;         // 6,  9, 12.. => not prime
@@ -188,8 +188,8 @@ struct JamcoinCollection<0>
             collection[i].go_to_another_legitimate_jamcoin (collection[i-1].get());
     }
 
-    size_t NUMBER_OF_JAMCOINS;
     std::vector<Jamcoin> collection;
+    size_t NUMBER_OF_JAMCOINS;
 };
 
 // This below function is a copy from http://stackoverflow.com/a/25115163/938111
