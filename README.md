@@ -60,9 +60,9 @@ Qualification Round
 
 Saturday 9 April 2016, online.
 
-* There are 27170 competitors having submitted at least one correct answer.
+* 27170 competitors have submitted at least one correct answer.
 * I do not know how many participants have registered to this conext... (who knows?)
-* I suppose there are 29356 competitors having attempted to compete   
+* I suppose 29356 competitors have being present (attendees)   
   (this is the number of competitors for Problem A Small dataset)
 
 I have obtained 65 points over 100, my rank is 5884:
@@ -81,7 +81,7 @@ Therefore I am qualified for Round 1 :-)
 | [D. Fractiles][]               | Nothing  |  9708  (33%), 85% correct (28%) |  4955 (17%), 48% correct  (8%)
 
 Pourcentage in brackets is the comparaison over the total number of attendees
-(supposed to be the number of competitor having attempted to solve Problem A Small dataset).
+(supposed to be the number of competitors having submitted a file for Problem A Small dataset).
 
 My submitted files are also available on [GCJ website](https://code.google.com/codejam/contest/6254486/scoreboard#vf=1&sp=5881)
 (search contestant *olibre* rank 5884).
