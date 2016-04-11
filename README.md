@@ -80,8 +80,8 @@ Therefore I am qualified for Round 1 :-)
 | [C. Coin Jam][]                | 15 hours | 15342  (52%), 87% correct (45%) |  9111 (31%), 69% correct (21%)
 | [D. Fractiles][]               | Nothing  |  9708  (33%), 85% correct (28%) |  4955 (17%), 48% correct  (8%)
 
-Pourcentage between parenthesis is the comparaison over the total number of present competitors
-(supposed to be the same as the competitor having attempted to solve Problem A Small dataset)
+Pourcentage in brackets is the comparaison over the total number of attendees
+(supposed to be the number of competitor having attempted to solve Problem A Small dataset).
 
 My submitted files are also available on [GCJ website](https://code.google.com/codejam/contest/6254486/scoreboard#vf=1&sp=5881)
 (search contestant *olibre* rank 5884).
