@@ -60,36 +60,41 @@ Qualification Round
 
 Saturday 9 April 2016, online.
 
-* 27170 competitors have submitted at least one correct answer.
-* I do not know how many participants have registered to this conext... (who knows?)
-* I suppose 29356 competitors have being present (attendees)   
-  (this is the number of competitors for Problem A Small dataset)
+Minimal points to be qualified for round 1 is 30 points.
+I have obtained 65 points over 100, I am qualified for Round 1 :-)
 
-I have obtained 65 points over 100, my rank is 5884:
+ Problem                   |My time |#users for small dataset  |#users for large dataset      
+---------------------------|--------|--------------------------|-------------------------
+[Counting Sheep][]         |1.5 hour|29356 (100%), 90% Ok (90%)|26216 (89%), 98% Ok (88%)
+[Revenge of the Pancakes][]|4 hours |23686  (81%), 95% Ok (77%)|22147 (75%), 97% Ok (73%)
+[Coin Jam][]               |15 hours|15342  (52%), 87% Ok (45%)| 9111 (31%), 69% Ok (21%)
+[Fractiles][]              |Nothing | 9708  (33%), 85% Ok (28%)| 4955 (17%), 48% Ok  (8%)
 
+Pourcentage in brackets is the comparaison over the number of competitors having attempted the first problem (supposed to be the total number of attentees having participated).
+* 29356 competitors have submitted an answer to the first problem
+* 27170 competitors have submitted at least one correct answer for any problem (93%)
+* 22154 competitors are qualified for round 1 (75%)
+
+My rank is 5884:
+* Top 20% of all competitors having competing (having attempted first problem)
 * Top 22% of all competitors having submitted at least one correct answer
-* Top 20% of all competitors having competing (having attempted to solve Problem A Small dataset)
-
-Minimal points to be qualified for Online Round 1 is 30 points.  
-Therefore I am qualified for Round 1 :-)
-
-| Problem   | Time spent | Users for small dataset | Users for large dataset |
-|-----------|-----------------|---------------|---------------|
-| [A. Counting Sheep][]          | 1.5 hour | 29356 (100%), 90% correct (90%) | 26216 (89%), 98% correct (88%)
-| [B. Revenge of the Pancakes][] | 4 hours  | 23686  (81%), 95% correct (77%) | 22147 (75%), 97% correct (73%)
-| [C. Coin Jam][]                | 15 hours | 15342  (52%), 87% correct (45%) |  9111 (31%), 69% correct (21%)
-| [D. Fractiles][]               | Nothing  |  9708  (33%), 85% correct (28%) |  4955 (17%), 48% correct  (8%)
-
-Pourcentage in brackets is the comparaison over the total number of attendees
-(supposed to be the number of competitors having submitted a file for Problem A Small dataset).
+* Top 26% of all qualified competitors
 
 My submitted files are also available on [GCJ website](https://code.google.com/codejam/contest/6254486/scoreboard#vf=1&sp=5881)
 (search contestant *olibre* rank 5884).
 
-  [A. Counting Sheep]:          qualification/sheep/README.md
-  [B. Revenge of the Pancakes]: qualification/pancakes/README.md
-  [C. Coin Jam]:                qualification/jamcoin/README.md
-  [D. Fractiles]: https://code.google.com/codejam/contest/6254486/dashboard#s=p3
+There some crazy competitors having submitted correct solutions using different ways:
+* [Lau from France](https://www.go-hero.net/jam/16/name/Lau)
+* [Louise.de.La.Valliere from Latvia](https://www.go-hero.net/jam/16/name/Louise.de.La.Valliere)
+* [Jimbly from USA](https://www.go-hero.net/jam/16/name/Jimbly)
+* [sarneaud from Australia](https://www.go-hero.net/jam/16/name/sarneaud)
+* [aditsu from Romania](https://www.go-hero.net/jam/16/name/aditsu)
+
+
+  [Counting Sheep]:          qualification/sheep/README.md
+  [Revenge of the Pancakes]: qualification/pancakes/README.md
+  [Coin Jam]:                qualification/jamcoin/README.md
+  [Fractiles]: https://code.google.com/codejam/contest/6254486/dashboard#s=p3
 
 
 
