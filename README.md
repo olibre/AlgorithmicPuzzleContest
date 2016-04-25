@@ -103,6 +103,20 @@ Round 1A
 
 Saturday 16 April 2016, online, Paris night (3:00 - 5:30).
 
+ Problem               | My time
+-----------------------|--------
+[The Last Word][]      | 30 minutes
+[Rank and File][]      | unfinished 
+[BFFs][]               |
+
+OK, I was bad, rank #7175 over 10149 competitors (#47 among 88 Colombian competitors).
+
+I have learnt: Qualification is easy. But to succeed Round 1, the most important is to find the tricks to solve the problems in a simple way. Therefore, I have to avoid running into a complex implementation. Keep calm and think about tricks... Easier said than done, let's see if I can progress on Round 1B...
+
+[The Last Word]:   https://code.google.com/codejam/contest/4304486/dashboard
+[Rank and File]:   https://code.google.com/codejam/contest/4304486/dashboard#s=p1
+[BFFs]:            https://code.google.com/codejam/contest/4304486/dashboard#s=p2
+
 
 Round 1B
 --------
