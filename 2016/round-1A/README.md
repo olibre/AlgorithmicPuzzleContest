@@ -32,9 +32,9 @@ Problem
 
 A *jamcoin* is a string of *N* ≥ 2 digits with the following properties:
 
- * Every digit is either `0` or `1`.
- * The first digit is `1` and the last digit is `1`.
- * If you interpret the string in any base between 2 and 10, inclusive, the resulting number is not prime.
+* Every digit is either `0` or `1`.
+* The first digit is `1` and the last digit is `1`.
+* If you interpret the string in any base between 2 and 10, inclusive, the resulting number is not prime.
 
 Not every string of `0`s and `1`s is a jamcoin.
 For example, `101` is not a jamcoin; its interpretation in base 2 is 5, which is prime.
@@ -104,7 +104,7 @@ Sample
 ------
 
 Input                 | Output
-----------------------|-------    
+----------------------|-----------
 `1` <br> `6` <br> `3` |	`Case #1:` <br> `100011 5 13 147 31 43 1121 73 77 629` <br> `111111 21 26 105 1302 217 1032 513 13286 10101` <br> `111001 3 88 5 1938 7 208 3 20 11`
 
 In this sample case, we have used very small values of **N** and **J** for ease of explanation.
